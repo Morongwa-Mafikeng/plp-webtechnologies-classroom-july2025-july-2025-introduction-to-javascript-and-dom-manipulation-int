@@ -38,7 +38,7 @@ let number = parseInt((prompt('Please enter number to multiply')))
 let i = 1;
 while (i <= 10 ) {
   
-  const result = number + i;
+  const result = number * i;
   document.writeln(`${number} x ${i} = ${result}` + "<br>");
   i++
 }
@@ -46,6 +46,7 @@ while (i <= 10 ) {
 
  
 productNumbers()
+
 
 
 
